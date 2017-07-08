@@ -1,4 +1,5 @@
-
+#include "MPU6050_6Axis_MotionApps20.h"
+#include "I2Cdev.h"
 uint8_t MPU6050::dmpInitialize() {
     // reset device
     DEBUG_PRINTLN(F("\n\nResetting MPU6050..."));
